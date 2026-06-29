@@ -17,7 +17,7 @@ import avatar from './avatar.png'
 export type MessageType = {
     id: number
     user: {
-        avatar: any
+        avatar: string
         name: string
     }
     message: {
@@ -31,22 +31,22 @@ export const message0: MessageType = {
     id: 0,
     user: {
         avatar: avatar, // можно менять
-        name: 'Some Name',  // можно менять
+        name: 'Taras Shevchenko',  // можно менять
     },
     message: {
-        text: 'some textsome textsome textsome textsome textsome textsome text', // можно менять
-        time: '22:00', // можно менять
+        text: 'Hi, how are you, Lesia?', // можно менять
+        time: '18:33', // можно менять
     },
 }
 export const friendMessage0: MessageType = {
     id: 100,
     user: {
         avatar: avatar, // можно менять
-        name: 'Friend Name', // можно менять
+        name: 'Lesia Ukrainka', // можно менять
     },
     message: {
-        text: 'зеркальное сообщение для тренировки css', // можно менять
-        time: '22:00', // можно менять
+        text: 'I\'m fine, Taras, what about you?', // можно менять
+        time: '18:38', // можно менять
     },
 }
 
