@@ -1,8 +1,25 @@
 .burgerMenuIcon {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
 }
 
 .header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Текст заголовка (название страницы) прижат к правому краю, либо space-between если слева бургер */
+    height: 60px;
+    padding: 0 30px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 10;
 }
 
 .header h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0;
 }

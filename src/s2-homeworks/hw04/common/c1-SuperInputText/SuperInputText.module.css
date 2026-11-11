@@ -1,20 +1,59 @@
 .input:focus {
+    border-color: #0066cc;
 }
 
 .input {
+    width: 372px;
+    height: 36px;
+
+    padding: 0 12px;
+
+    font-size: 14px;
+
+    border: 1px solid #d1d9e6;
+    border-radius: 4px;
+
+    outline: none;
+    background: #fff;
+
+    transition: .2s;
 }
 
 .inputWrapper {
+    display: flex;
+    flex-direction: column;
 }
 
 .superInput {
+    border-color: #d1d9e6;
 }
 
 .errorInput {
+    width: 372px;
+    height: 36px;
+
+    padding: 0 12px;
+
+    font-size: 14px;
+
+    border: 1px solid #cc1439;
+    border-radius: 4px;
+
+    outline: none;
+    background: #fff;
+
+    transition: .2s;
 }
 
 .errorInput:focus {
+    border-color: #cc1439;
+    box-shadow: 0 0 0 2px rgba(204, 20, 57, .15);
 }
 
 .error {
+    margin-top: 4px;
+
+    color: #cc1439;
+    font-size: 10px;
+    line-height: 12px;
 }
